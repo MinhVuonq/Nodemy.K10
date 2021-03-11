@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 /* @media only screen and (max-width: 600px) {
 
@@ -126,7 +126,7 @@ body{
 
 .parent{
   width: 100%;
-  height: 600px;
+  height: auto;
   background: #fb007a;
   display: flex;
 }
@@ -143,10 +143,10 @@ body{
 }
 
 .size{
-  font-size: 42px;
+  font-size: 40px;
 }
 .size1{
-  font-size: 18px;
+  font-size: 16px;
 }
 .size2{
   font-size: 20px;
@@ -160,7 +160,7 @@ body{
 
 .child1 img{
   width: 300px;
-  height: 370px;
+  height: 380px;
 }
 .child2{
   padding-top: 80px;
