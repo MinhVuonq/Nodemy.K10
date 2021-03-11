@@ -122,3 +122,48 @@ body{
     background-color: #ff007d;
     
 }
+
+
+.parent{
+  width: 100%;
+  height: 600px;
+  background: #fb007a;
+  display: flex;
+}
+
+.child{
+  margin-left: 150px;
+  padding-top: 80px;
+  margin-right: 80px;
+  width: 350px;
+}
+
+.white{
+  color: white;
+}
+
+.size{
+  font-size: 42px;
+}
+.size1{
+  font-size: 18px;
+}
+.size2{
+  font-size: 20px;
+}
+
+.child1{
+  width: 350px;
+  margin-right: 100px;
+  padding-top: 80px;
+}
+
+.child1 img{
+  width: 300px;
+  height: 370px;
+}
+.child2{
+  padding-top: 80px;
+  width: 350px;
+  margin-right: 150px;
+}
