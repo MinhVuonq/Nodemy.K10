@@ -55,16 +55,6 @@ img {
     padding: 30px 20px;
 }
 
-.header-2 ul li {
-    font-size: 16px;
-    color: black;
-    padding: 30px 20px;
-}
-
-.header-2 ul li:hover {
-    color: #D90078;
-}
-
 .header-main {
     position: fixed;
     top: auto;
