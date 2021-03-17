@@ -16,41 +16,48 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/img/logo/logo-white.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo/logo-white.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-            <div class="collapse navbar-collapse header-1" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Choose</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Teacher</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                    </li>
-
-                </ul>
-
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#choose">Choose</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#teacher">Teacher</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- end navbar -->
+    <!-- Home -->
+    <section id="home">
+        <div class="container-fluid">
+        </div>
+    </section>
+    <!-- end Home -->
     <!-- our choose -->
     <section id="our-choose">
+        <a href="" id="choose"></a>
         <!-- title -->
         <div class="title">
-            <div class="container-fluid">
+            <div class="container-fluid position-relative">
                 <div class="row">
                     <div class="col-md-5 offset-md-1">
                         <div class="choose-middle">
@@ -145,7 +152,41 @@
         </div>
     </section>
     <!-- end our choose -->
+    <!-- Teacher -->
+    <section>
+        <a href="" id="teacher"></a>
 
+    </section>
+    <!-- end Teacher -->
+    <!-- Pricing -->
+    <section>
+        <a href="" id="pricing"></a>
+
+    </section>
+    <!-- end Pricing -->
+    <!-- Contact -->
+    <section>
+        <a href="" id="contact"></a>
+    </section>
+    <!-- end Contact -->
+    <script type="text/javascript">
+        //parallax js
+        $(document).ready(function() {
+
+            $('.navbar a').click(function(event) {
+                event.preventDefault();
+
+                part = $(this).attr('href'); // lấy id của thẻ a tương ứng
+
+                position = $(part).offset().top;
+
+                $('html, body').animate({
+                    scrollTop: position
+                }, 1400, 'easeInOutSine');
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
 </body>
 
 </html>
