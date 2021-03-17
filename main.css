@@ -278,15 +278,7 @@ body{
   float: none;
   
 }
-.space1{
-  position: absolute;
-  left: 610px;
-    content: '';
-    height: 2px;
-    width: 73px;
-    background-color: #ff007d;
-    
-}
+
 
 
 .parent{
