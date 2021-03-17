@@ -426,7 +426,7 @@ img {
   padding-bottom: 100px;
 }
 
-.title {
+.title-ourchoose {
   color: white;
   padding-top: 100px;
   padding-left: 1%;
@@ -437,7 +437,7 @@ img {
   -webkit-background-size: cover;
 }
 
-.title h2 {
+.title-ourchoose h2 {
   color: #ffffff;
   font-weight: bold;
   margin-bottom: 15px;
