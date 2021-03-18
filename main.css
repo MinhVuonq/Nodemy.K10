@@ -15,10 +15,22 @@
   -webkit-transition: all 0.3s ease;
 }
 .course .buttonColor:hover{
-
 transform: translateY(-6px);
-
-
+}
+.course .space{
+  background-color: #fb007a;
+  height: 2px;
+  width: 100px;
+  margin: 20px 0px 20px 0px;
+}
+.course .text-center{
+  text-align: center;
+  width: 25%;
+}
+@media only screen and (max-width: 670px) {
+  .course .text-center{
+    width: 75%;
+  }
 }
 .course .icon-color{
   color: rgba(255, 0, 122, 1);
@@ -88,7 +100,15 @@ transform: translateY(-6px);
   width: 70%;
   height: 50%;
 }
-
+.ourTeacher .space{
+  background-color: #fb007a;
+  height: 2px;
+  width: 100px;
+  margin: 20px 0px 20px 0px;
+}
+.ourTeacher .text-center{
+  text-align: center;
+}
 .ourTeacher .swiper-slide {
   text-align: center;
   font-size: 18px;
