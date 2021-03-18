@@ -110,7 +110,6 @@ transform: translateY(-6px);
   text-align: center;
 }
 .ourTeacher .swiper-slide {
-  text-align: center;
   font-size: 18px;
   background: #fff;
   border-right: 4px solid #ff0383;
@@ -138,6 +137,7 @@ transform: translateY(-6px);
 }
 .ourTeacher .border-radius{
     border-radius: 50%;
+    
 }
  @media only screen and (max-width: 670px) {
   .ourTeacher .swiper-container{
