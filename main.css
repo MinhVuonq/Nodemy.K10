@@ -388,7 +388,7 @@ ul li a:hover {
   color: black;
 }
 
-img {
+.img-navbar {
   height: auto;
   max-width: 100%;
 }
