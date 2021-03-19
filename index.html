@@ -160,24 +160,25 @@
         </div>
     </section>
     <!-- end our choose -->
-</body>
-<script type="text/javascript">
-    // Scroll menu
-    $(document).ready(function() {
-
-        $('.navbar a').click(function(event) {
-            event.preventDefault();
-
-            part = $(this).attr('href'); // lấy id của thẻ a tương ứng
-
-            position = $(part).offset().top;
-
-            $('html, body').animate({
-                scrollTop: position
-            }, 1400, 'easeInOutSine');
+    <script type="text/javascript">
+        // Scroll menu
+        $(document).ready(function() {
+    
+            $('.navbar a').click(function(event) {
+                event.preventDefault();
+    
+                part = $(this).attr('href'); // lấy id của thẻ a tương ứng
+    
+                position = $(part).offset().top;
+    
+                $('html, body').animate({
+                    scrollTop: position
+                }, 1400, 'easeInOutSine');
+            });
         });
-    });
-    // end scroll menu
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+        // end scroll menu
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+</body>
+
 </html>
