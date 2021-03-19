@@ -371,7 +371,7 @@ header {
   transition: background-color 0.5s;
 }
 
-ul li {
+.ulli-navbar ul li {
   display: block;
   color: black;
   font-weight: bold;
@@ -380,7 +380,7 @@ ul li {
   padding: 0px 20px;
 }
 
-ul li a:hover {
+.ulli-navbar ul li a:hover {
   color: #B80F79 !important;
 }
 
