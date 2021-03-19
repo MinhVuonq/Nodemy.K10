@@ -37,6 +37,13 @@
   .aboutus .row .absconten:hover{
       box-shadow: 0px 0px 35px 9px rgb(240, 233, 233);   
   }
+  .aboutus .row .duongke{
+    width: 100px;
+    height: 2px;
+    background: #fd007a;
+    margin: 40px 0px ;
+    text-align: center;
+}
   .aboutus .row .absconten:hover::before{
       right: 0;
   }
@@ -53,7 +60,6 @@
   .aboutus .row h3{
       color: pink;
       font-size: 18px;
-      padding-top: 10px;
       text-align: center;
   }
   .aboutus .row p{
@@ -75,6 +81,13 @@
   .apppack .block:hover {
     transform: translateY(-15px);
     box-shadow: 0px 0px 10px 5px rgb(240, 233, 233);
+  }
+  .apppack .row .info h3{
+      width: 100px;
+      height: 2px;
+      background: #fd007a;
+      margin: 40px 0px ;
+      text-align: center;
   }
   .apppack .Month{
       width: 80px;
